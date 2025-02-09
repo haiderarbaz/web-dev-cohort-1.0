@@ -20,7 +20,6 @@ Explore my progress and feel free to contribute or share feedback!
 - **codingChallenges/** - Contains all the coding challenges topic wise.
 - **lectures/** - Weekly Lectures Code Snipets and Notes.
 - **projects/** - This folder contains hands-on projects, applying web development concepts with code, notes, and improvements.
-- **bonus 
 
 ## 📢 Reach Me  
 
