@@ -1,11 +1,11 @@
 ![Profile Image](./webDevCohort_HiteshSir_PiyushSir.webp)
 
-
 # Cohort-Webev-1.0 🚀
 
 A repository for **Cohort Web Development 1.0** course by [Hitesh Choudhary](https://www.youtube.com/@chaiaurcode) and [Piyush Garg](https://www.youtube.com/@piyushgargdev).
 
 ## 📖 Overview
+
 This repository contains **weekly lectures notes, assignments, coding challenges** and **projects** related to **HTML, CSS,** and **JavaScript** as part of the **cohort web development** program.
 
 # Welcome to My Web Development Journey! 🚀
@@ -14,14 +14,15 @@ This repository showcases my **projects, assignments, challenges, notes,** and *
 
 Explore my progress and feel free to contribute or share feedback!
 
-
 ## 📁 Folder Structure
-- **assignment/** - Contains all the assignments topic wise.
-- **codingChallenges/** - Contains all the coding challenges topic wise.
-- **lectures/** - Weekly Lectures Code Snipets and Notes.
-- **projects/** - This folder contains hands-on projects, applying web development concepts with code, notes, and improvements.
 
-## 📢 Reach Me  
+- **WEEK NUMBER/**
+  - **assignment/** - Contains weekly assignments based on the covered topics.
+  - **codingChallenges/** - Includes weekly coding challenges based on the covered topics.
+  - **lectures/** - Contains weekly lecture code snippets and notes.
+  - **projects/** - Contains projects applying web development concepts, aligned with weekly covered topics
+
+## 📢 Reach Me
 
 <p style="text-align: center";>
   <a href="https://x.com/arbazhaider0">
@@ -34,6 +35,3 @@ Explore my progress and feel free to contribute or share feedback!
     <img src="https://img.shields.io/badge/Email-hello@arbazhaider.com-red?style=for-the-badge&logo=gmail&logoColor=white">
   </a>
 </p>
-
-
-
