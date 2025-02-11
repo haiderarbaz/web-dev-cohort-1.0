@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="flexbox.css" />
+    <title>Flexbox</title>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="child">Item 1</div>
+      <div class="child">Item 2</div>
+      <div class="child">Item 3</div>
+      <div class="child">Item 4</div>
+    </div>
+
+    <!-- Flexbox is a layout Methos for arranging items in rows and columns -->
+    <!-- It allows elemenst to be placed on a single axis either Horizontally(Main-Axis) or Vertically(Cross-Axis)-->
+    <!-- Main-Axis: Left to Right -->
+    <!-- Cross-Axis: Top to Botton -->
+    <!-- By Default All child elements are laid on main Axis -->
+
+    <!-- The order property controls the position of flex items inside a flex container. By default, all flex items have an order of 0, but you can change it to reorder elements visually. -->
+    <!-- Items with lower order values appear first.
+    Items with higher order values appear later.
+    Default order is 0, so elements without order follow the original HTML order. -->
+
+    <!-- Note:
+    order only changes visual position in the flex container but does not affect the actual DOM structure (e.g., for screen readers or tab navigation). -->
+
+    <div class="container">
+      <div class="container-child">Item 1</div>
+      <div class="container-child" id="child-2">Item 2</div>
+      <div class="container-child">Item 3</div>
+      <div class="container-child">Item 4</div>
+    </div>
+
+    <div class="container-flex">
+      <div class="container-flex-child">Item 1</div>
+      <div class="container-flex-child" id="child-flex-2">Item 2</div>
+      <div class="container-flex-child">Item 3</div>
+      <div class="container-flex-child">Item 4</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .btn {
+        background-color: #fff;
+        color: darkslategray;
+        border: 1px solid #000;
+      }
+      #btn-1 {
+        color: red;
+      }
+      #btn-1 {
+        color: blue;
+      }
+    </style>
+    <title>Specificity Algo</title>
+  </head>
+  <body>
+    <button class="btn" id="btn-1" style="color: lightcoral">Click Me</button>
+    <button class="btn" id="btn-2">Click Me</button>
+    <button class="btn" id="btn-3" style="color: lightcoral">Click Me</button>
+
+    <p>Specificity Algo</p>
+    <p>
+      Below are the order of specificity rule which has precedence
+      respectively:<br />
+      1) Inline style: Inline style has highest priority among all.<br />
+      2) Id Selector: It has second highest priority. <br />3) Classes,
+      pseudo-classes and attributes: These selectors has lowest priority.
+    </p>
+  </body>
+</html>

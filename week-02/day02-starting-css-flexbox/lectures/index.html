@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- This is internal css -->
+    <style>
+      p {
+        text-decoration: underline;
+        background-color: cadetblue;
+        font-size: 20px;
+        padding: 15px;
+        border-radius: 8px;
+      }
+      button {
+        border: 2px solid black;
+        border-radius: 8px;
+        padding: 6px;
+        margin: 8px;
+      }
+
+      /* This style will override the above border styles */
+      button {
+        border: 1px solid olive;
+      }
+
+      /* This style will override the above both border styles */
+      button {
+        border: 2px solid plum;
+      }
+    </style>
+    <title>Starting With CSS and Flexbox</title>
+  </head>
+  <body>
+    <!-- This is inline css -->
+    <p style="font-family: Georgia, 'Times New Roman', Times, serif">
+      This is a CSS class.
+    </p>
+    <p style="font-family: Georgia, 'Times New Roman', Times, serif">
+      Css stands for Cascading style sheets, Cascading means kind of
+      override/overlaping
+    </p>
+
+    <!-- This is inline css -->
+    <button style="background-color: bisque; color: #000">Click Me</button>
+    <button style="background-color: bisque; color: #000">Add To Cart</button>
+    <button style="background-color: bisque; color: #000">Buy Now</button>
+
+    <!-- Inline CSS has more Specificity  than internal CSS and Internal CSS has more Specificity than external CSS-->
+  </body>
+</html>

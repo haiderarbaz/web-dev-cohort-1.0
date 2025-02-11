@@ -1,0 +1,71 @@
+div {
+  border: 1px solid black;
+}
+.parent {
+  height: 150px;
+
+  display: flex;
+  justify-content: start;
+  /* By using Justify Contents we can play around Main-Axis */
+  align-items: start;
+  /* By using Align Items we can play around Cross-Axis */
+  flex-wrap: wrap;
+  /* This property specifies whether flex items are forced onto one line or can wrap onto multiple lines */
+  gap: 20px;
+  /* Gap is the space between items inside a flexbox, grid, or multi-column layout. */
+}
+
+.child {
+  height: 50px;
+  width: 80px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 150px;
+
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+
+.container-child {
+  height: 50px;
+  flex: 1;
+  /* flex: 1 is a shorthand property in Flexbox that makes a flex item grow and take up the available space equally with other flex: 1 items. 
+
+  It can take 3 value:
+  flex: 1 1 0%;
+    1 (flex-grow) → Allows the item to grow and take up available space.
+    1 (flex-shrink) → Allows the item to shrink if needed.
+    0% (flex-basis) → Starts with zero width before growing.
+  */
+
+  order: 10;
+}
+
+#child-2 {
+  flex: 2;
+  /* #child-2 gets 2 parts (twice as much as chil1, child2 child 3) */
+  order: 2;
+}
+
+/* Here order 2 has more priority than order 10 that's why child 2 come to the first*/
+
+.container-flex {
+  height: 150px;
+
+  display: flex;
+  flex-direction: column;
+  /* The flex-direction property controls the direction in which flex items are arranged inside a flex container. 
+  flex-direction: row(default) | row-reverse | column | column-reverse;
+
+  Notice that when the flex direction is a column, justify-content changes to the vertical and align-items to the horizontal.
+
+}*/
+  justify-content: end;
+  align-items: start;
+}
