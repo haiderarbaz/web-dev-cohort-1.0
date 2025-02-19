@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Theme Changer</title>
+  </head>
+  <body>
+    <h1>Theme Change On Toggle</h1>
+
+    <!-- Here we are directly calling a function and binding it on clicking the -->
+    <button onclick="changeBackgroundColorBlack()">
+      Click Me To Change Bg Black
+    </button>
+    <button onclick="changeBackgroundColorwhite()">
+      Click Me To Change Bg Black
+    </button>
+
+    <br />
+
+    <!-- Here we are directly calling a function and binding it on clicking the
+    button -->
+    <button onclick="changeColor('black')">Black Kar Do</button>
+    <button onclick="changeColor('white')">White Kar Do</button>
+
+    <br />
+
+    <!-- Mereko is particular button ke upar listen karna hai ke jab bhi user
+    click kare toh kuch functionalities run karay. 
+    And to identify uniquely this
+    button from this body we give a id to the button -->
+    <button id="dark-mode-button">Change Mode</button>
+
+    <br />
+
+    <button id="theme-button">Dark Mode</button>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
