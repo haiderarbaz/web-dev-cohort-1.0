@@ -1,0 +1,26 @@
+.website {
+  border: 1px solid;
+  background-color: aqua;
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "content content ads"
+    "content content ads"
+    "footer footer footer";
+}
+.item {
+  border: 1px solid;
+  background-color: brown;
+}
+.header {
+  grid-area: header;
+}
+.content {
+  grid-area: content;
+}
+.ads {
+  grid-area: ads;
+}
+.footer {
+  grid-area: footer;
+}

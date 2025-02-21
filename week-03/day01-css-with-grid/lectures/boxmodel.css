@@ -1,0 +1,56 @@
+/*  
+    content-box is the default box model in CSS. When you set the width and height of an element, it only applies to the content area, not including padding or borders.
+
+    Imagine a suitcase that you say is 30 cm wide.
+
+    With content-box:
+    The 30 cm only refers to the inside storage space—where you put your clothes.
+    If you add padding (like a soft lining) or a thick border (like a hard shell), the suitcase gets bigger than 30 cm.
+
+    So, the total size of the suitcase is: content size + padding + border
+*/
+#azlan {
+  box-sizing: content-box;
+  margin-bottom: 30px;
+  height: 100px;
+  width: 100px;
+  border: 10px solid grey;
+  padding: 20px;
+}
+#shaad {
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  height: 100px;
+  width: 100px;
+  border: 10px solid grey;
+  padding: 20px;
+}
+
+/* 
+    border-box is a CSS property that makes sure the width and height you set for an element include the content, padding, and border.
+
+    To use this style for a webpage box, you set box-sizing: border-box
+
+    Imagine you have a gift box that must fit inside a shelf space exactly 30 cm wide.
+
+    With border-box:
+    The 30 cm includes everything—gift space, padding, and wrapping (border).
+    No matter how much padding or border you add, the total box size never exceeds 30 cm.
+*/
+#suleman {
+  box-sizing: content-box;
+  margin-bottom: 30px;
+  height: 100px;
+  width: 100px;
+  border: 10px solid grey;
+  padding: 20px;
+}
+#keyan {
+  box-sizing: border-box;
+  margin-top: 20px;
+  height: 100px;
+  width: 100px;
+  border: 10px solid grey;
+  padding: 20px;
+}
