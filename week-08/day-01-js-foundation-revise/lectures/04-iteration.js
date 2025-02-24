@@ -10,6 +10,7 @@ let totalSales = salesData.reduce((acc, sale) => acc + sale.price, 0);
 console.log(totalSales);
 
 // list all the items that are less than 50
+// First way
 let inventory = [
   { name: "Widget A", stock: 30 },
   { name: "Widget B", stock: 120 },
@@ -21,6 +22,7 @@ let lowStockItems = inventory.filter((item) => {
 });
 console.log(lowStockItems); // [ { name: 'Widget A', stock: 30 }, { name: 'Widget C', stock: 45 } ]
 
+// Second Way
 let inventory0 = [
   { name: "Widget A", stock: 30 },
   { name: "Widget B", stock: 120 },
@@ -32,6 +34,7 @@ let lowStockItems0 = inventory0.filter((item) => {
 });
 console.log(lowStockItems0); // []
 
+// Third Way
 let inventory1 = [
   { name: "Widget A", stock: 30 },
   { name: "Widget B", stock: 120 },
