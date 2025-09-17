@@ -1,4 +1,4 @@
-![Profile Image](./webDevCohort_HiteshSir_PiyushSir.webp)
+![Profile Image](./assets/02-README-img/webDevCohort_HiteshSir_PiyushSir.webp)
 
 # Cohort-Webev-1.0 🚀
 
